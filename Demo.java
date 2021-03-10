@@ -52,8 +52,8 @@ public class Demo
 		//BigInteger has a toString method and you can specify the radix (base system) as a parameter.
 		//For example: new BigInteger(str,2).toString(10) converts a binary string to a decimal string of the same value
 
-
-		//...
+		return new BigInteger(str,16).toString(2);
+		
 	}
 
 	public static String robert(String str)
