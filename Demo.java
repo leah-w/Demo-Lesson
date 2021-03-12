@@ -17,7 +17,13 @@ public class Demo
 	public static String leah(String str)
 	{
 		//remove every third character
-
+		String word = ""; 
+        	for (int i = 1; i<=str.length(); i++){
+            		if(i % 3 != 0){
+                		word += str.charAt(i-1);
+            		}        
+        	}        
+       		return word;
 		//...
 
 	}
